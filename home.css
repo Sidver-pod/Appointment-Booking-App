@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#heading {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    height: 45px;
+    border: 10px solid wheat;
+    margin: auto;
+    background-color: wheat;
+    border-radius: 3px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.navigation-bar {
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+    background-color: rgba(0, 0, 0, 0.555);
+    color: wheat;
+}
+
+#nav-center {
+    text-align: center;
+}
+
+#nav-home, #nav-responses, #nav-about {
+    margin: auto;
+    padding: 8px;
+    border: 1px dashed wheat;
+    cursor: pointer;
+}
+
+#nav-responses, #nav-about {
+    margin-left: 20px;
+}
+
+#nav-responses:hover, #nav-about:hover{
+    /*color:rgba(0, 0, 0, 0.555);
+    background-color: wheat;*/
+    background-color: rgba(0, 0, 0, 0.455);
+}
+
+#nav-home {
+    color:rgba(0, 0, 0, 0.555);
+    background-color: wheat;
+    border: 1px dashed rgba(0, 0, 0, 0.555);
+}
+
+#a-home{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.555);
+}
+
+#a-responses, #a-about{
+    text-decoration: none;
+    color: wheat;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+}
+
+.user-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.envelope {
+    margin: auto;
+    margin-top: 10px;
+    width: 38.9%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    height: 36.1%;
+    /* padding-top: 100px;
+    padding-right: 345px;
+    padding-bottom: 100px;
+    padding-left: 200px; */
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details {
+    padding: 28px;
+}
+
+label {
+    font-size: larger;
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+}
+
+input, #submit {
+    font-family: 'EB Garamond', serif;
+    font-size: larger;
+    font-weight: 400;
+}
+
+#submit {
+    color: white;
+    background-color: tomato;
+    border: 1px solid tomato;
+    width: 130px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 90px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+}
+
+#submit:hover {
+    background-color: rgb(253, 80, 50);
+    border: 1px solid rgb(253, 80, 50);
+}
+
+#note{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.responses {
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    width: 11%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.responses:hover {
+    cursor: pointer;
+    border: 1px solid tomato;
+    color: tomato;
+}

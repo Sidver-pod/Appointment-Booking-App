@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABA / Home</title>
+        <link rel="stylesheet" href='/styling-home.css'/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1 id='heading'>Appointment Booking App</h1>
+        </div>
+        <div class='navigation-bar'>
+            <div id='nav-center'>
+                <a href='./main.html' id='a-home'><span id='nav-home'>HOME</span></a>
+                <a href='./responses.html' id='a-responses'><span id='nav-responses'>BOOKINGS</span></a>
+                <a href='./about.html' id='a-about'><span id='nav-about'>ABOUT</span></a>
+            </div>
+        </div>
+        <div>
+            <div class='user-space'>
+                <div class='envelope'>
+                    <div class='details'>
+                        <label for='username'>Name</label><br>
+                        <input type='text' name='username' id='username' required><br><br>
+                        <label for='email'>Email</label><br>
+                        <input type='email' name='email' id='email' required><br><br>
+                        <button type='submit' id='submit'>Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div id='note'>
+                <p>
+                    *Response appears below. Please wait for a few seconds for the cue to appear.
+                </p>
+            </div>
+            <!-- <div class='responses'>Response Received!</div> -->
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+        <script src="home.js"></script>
+    </body>
+</html>
